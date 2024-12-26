@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  background-color: #fff;
+  color: #000;
+  align-items: center;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.nav h3 {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.nav a {
+  font-weight: 455;
+}
+
+.nav a:hover {
+  color: #5261FF;
+  transition: .4s all ease-in-out;
+}
+
+.nav a:active {
+  color: #5261FF;
+}
+
+.nav .link1 {
+  right: 0;
+  margin: 10px;
+  font-size: 15px;
+  margin-left: 35%;
+  text-decoration:none;
+  color:#000;
+}
+
+.nav .link2 {
+  right: 0;
+  margin: 10px;
+  font-size: 15px;
+  margin-left: 10%;
+  text-decoration:none;
+  color:#000;
+}
+
+
+img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.container {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 150vh;
+  /* border:1px solid red; */
+  background-color: #fff;
+}
+
+.container h2 {
+  margin-top: 15px;
+}
+
+.container p {
+  text-align: center;
+  margin: 10px;
+  font-size: 15px;
+}
+
+ul {
+  margin-top: 15px;
+  font-size:15px;
+  text-align:center;
+  padding:20px;
+  
+}
+
+footer {
+  /* border: 1px solid red; */
+  height: 15vh;
+  border: 1px solid rgba(67, 67, 67, 0.51);
+  display: flex;
+  align-items: center;
+}
+
+footer h1 {
+  color: rgba(67, 67, 67, 0.51);
+  margin: 10px;
+}
+
+.contact {
+  width: 45%;
+  height: 15vh;
+  margin-left: 15%;
+  /* border: 1px solid rgba(67, 67, 67, 0.51); */
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.contact a {
+  flex: 1 1 calc(50% - 10px);
+  /* Elemen menempati 50% dari lebar */
+  text-align: center;
+  margin: 10px;
+  text-decoration: none;
+  color: rgba(67, 67, 67, 0.51);
+}
+
+.editorContainer {
+  margin-top: 5%;
+  display:flex;
+  align-items:center ; 
+  flex-direction:column;
+}
+
+.CodeMirror {
+  width: 85%;
+  padding: 10px;
+  margin-top:15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #272822;
+}
